@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSW-CarlosArias_Fase2</title>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -14,21 +15,32 @@
     <!-- Este es el menu de la pagina -->
     <header>
         <center>
-            <table style="width: 100%; background-color: orange; ">
-            <h1> Aprendiendo sobre CSS Grid </h1>
             <nav>
-                <ul>
+                <div>
+                    <img src="" alt="" class="logo">
+                </div>
+
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="nav-menu">
                     <li><a href="#Inicio"> Inicio </a></li>
                     <li><a href="#Tema"> CSS Grid </a></li>
                     <li><a href="#Mockup"> Mockup </a></li>
                     <li><a href="#Acercade"> Acerca de </a></li>
                 </ul>
             </nav>
-            </table>
+            <div class="banner-text container">
+                <h1>
+                    Aprendiendo sobre CSS Grid
+                </h1>
+            </div>
         </center>
     </header>
- 
-<!-- Esta es la seccion de inicio -->
+    <script src="https://kit.fontawesome.com/2cb25f2c39.js"></script>
+
+    <!-- Esta es la seccion de inicio -->
 
     <hr>
     <a name="Inicio"></a>
@@ -45,6 +57,7 @@
     </section>
     <a name="Tema"></a>
     <section>
+        <center>
         <p>
         <h2> ¿Qué es CSS Grid? </h2>
         CSS Grid es un sistema de maquetación web que divide la página en una cuadrícula o rejilla (grid) a partir de la
@@ -80,7 +93,7 @@
         </ul>
         </p>
         <h2>Conceptos:</h2>
-        <img src="Imagenes/Conceptos.jpg" alt="img_conceptos" width="27%" >
+        <img src="Imagenes/Conceptos.jpg" alt="img_conceptos" width="27%">
         <p>
         <ul>
             <li>
@@ -103,6 +116,7 @@
             </li>
         </ul>
         </p>
+    </center>
 
         <!-- Esta es la seccion del mockup elaborado -->
 
@@ -112,8 +126,10 @@
     <hr>
     <a name="Mockup"></a>
     <section>
-        <center><h3>Mockup de la pagina</h3></center>
-            <center><img src="Imagenes/Mockup.jpg" width="27%"  ></center>
+        <center>
+            <h3>Mockup de la pagina</h3>
+        </center>
+        <center><img src="Imagenes/Mockup.jpg" width="27%"></center>
     </section>
 
     <hr>
@@ -137,10 +153,10 @@
 
     <!-- Esta es la seccion del pie de pagina -->
     <center>
-        <footer>
-            <p>Esta pagina fue desarrollada por Carlos Arias</p>
-            <p>Fecha actualización: 13/03/2023</p>
-        </footer>
+        <div class="piedepagina">
+            <p>Esta pagina fue desarrollada por Carlos Arias  _  Fecha actualización: 13/03/2023</p>
+        </div>
+             
     </center>
 
 
