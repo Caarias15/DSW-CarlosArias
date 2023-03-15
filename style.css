@@ -109,7 +109,8 @@ nav {
 }
 
 #check:checked ~ .nav-menu {
-    height: 30vh;
+    height: 80px 0;
+    position: relative;
 }
 
 #check:checked ~ .nav-menu li {
