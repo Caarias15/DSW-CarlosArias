@@ -1,13 +1,17 @@
+
+
+
 .contenedor {
     display: grid;
     grid-template-areas:
         'A A A A'
         'B B B B'
-        'C C C C'
-        'D D D D'
+        'C D D D'
         'E E E E'
     ;
 }
+
+
 
 .encabezado1 {
     grid-area: A;
@@ -30,8 +34,7 @@
     background-color: #19376D;
     text-decoration: none;
     padding: 10px 40px;
-    margin: 3px;
-}
+    margin: 3px;}
 
 
 /* MENU LATERAL */
@@ -50,7 +53,7 @@
     padding: 10px 40px;
     margin: 3px;
     display: block;
-    
+
     
 }
 
@@ -69,4 +72,15 @@
     grid-area: E;
     background-color: #A5D7E8;
     color: black;
+}
+
+#lista-conceptos{   
+    list-style: none;
+    text-align: center;
+}
+
+@media (max-width: 50px) {
+
+    footer { background-color: red ;}
+
 }
