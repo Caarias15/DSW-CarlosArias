@@ -2,4 +2,12 @@
     grid-area: A;
     background-color: #0B2447;
     color: white;
+    display: c
+}
+
+.piedepagina {
+    text-align: center;
+    grid-area: E;
+    background-color: #A5D7E8;
+    color: black;
 }
