@@ -1,3 +1,14 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Balsamic Sans';
+}
+
+
+
+
+
+
+
 .encabezado1 {
     grid-area: A;
     background-color: #0B2447;
