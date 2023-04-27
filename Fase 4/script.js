@@ -1,14 +1,15 @@
 
 function procesarRespuestas(){
-    let total = 5
+    let total = 5;
     let puntos = 0;
+    // let opcion_elegida =[];
 
     let myForm =document.forms["formulario"];
     let respuestasCorrectas =["c", "a", "a", "b", "d",]
 
-    for (let i=1; i<= total; i++){
-        if (myForm["r"+i].value == null ||
-            myForm["r"+i].value == '') {
+    for (let i=0; i<= total; i++){
+        if (myForm["p"+i].value == null ||
+            myForm["p"+i].value == '') {
             alert('Favor responder todas las preguntas del cuestionario');
             return false;    
         } else {
