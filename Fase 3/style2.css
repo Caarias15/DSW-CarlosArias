@@ -85,36 +85,3 @@
 
 }
 
-
-#boton_contenido{
-    width: 80%;
-    display: black;
-    margin: auto;
-    padding: 10px;
-    background-color: rgba(37, 143, 125, 0.733);
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.dropdown-item{
-    width: 80%;
-    display: black;
-    margin: auto;
-    padding: 10px;
-    background-color: rgba(66, 28, 170, 0.733);
-    border: none;
-    cursor: pointer;
-    border-radius: 20px;
-    text-align: center;
-}
-
-#boton_contenido:hover {
-    background: #000;
-    color: #fff;
-}
-.dropdown-item:hover {
-    background: #000;
-    color: #fff;
-}
