@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     font-family: 'Balsamic Sans';
 }
-header{
+
+header {
     text-align: center;
     background: #000;
     color: #fff;
@@ -12,19 +13,20 @@ header{
 
 }
 
-.container{
+.container {
     max-width: 700px;
     margin: auto;
     padding: 20px;
 }
 
-.section{
+.section {
     border: 2px solid #5624d0;
     border-radius: 7px;
     padding: 10px;
     margin: 10px 0;
 }
-label{
+
+label {
     display: block;
     padding: 7px;
     border-radius: 7px;
@@ -33,10 +35,11 @@ label{
     margin-bottom: 3px;
 }
 
-label:hover{
+label:hover {
     background: rgba(37, 143, 125, 0.733);
 }
-button{
+
+#boton_enviar {
     width: 80%;
     display: black;
     margin: auto;
@@ -45,23 +48,28 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    text-align: center;
 }
-button:hover{
+
+#boton_enviar:hover {
     background: #000;
     color: #fff;
 }
-h2{
-    text-align: center;
-}
+
+
 #resultado{
     font-size: 30px;
     color: darkred;
+    text-align: center;
 }
 
-
-
-
 .encabezado1 {
+    background-color: #0B2447;
+    color: white;
+}
+
+#encabezado2 {
+    text-align: center;
     background-color: #0B2447;
     color: white;
 }
@@ -70,9 +78,4 @@ h2{
     text-align: center;
     background-color: #A5D7E8;
     color: black;
-} 
-#resultados{
-    text-align: center;
-    background-color: #0B2447;
-    color: white;
 }

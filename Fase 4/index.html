@@ -19,108 +19,109 @@
 
     <br>
 
-    <h1 id="resultados"> Responda las siguientes preguntas:</h1>
-    <div name="formulario" class="container">
-        <section id="p0">
-            <h3>1. ¿Cuál es la propiedad que se utiliza para definir el contenedor de una cuadrícula en CSS Grid?</h3>
-            <label>
-                <input type="radio" name="p0" value="a" onclick="respuesta(0, this)"> a. Display: flex
-            </label>
-            <label>
-                <input type="radio" name="p0" value="b" onclick="respuesta(0, this)"> b. Display: inline-block
-            </label>
-            <label>
-                <input type="radio" name="p0" value="c" onclick="respuesta(0, this)"> c. Display: grid
-            </label>
-            <label>
-                <input type="radio" name="p0" value="d" onclick="respuesta(0, this)"> d. Display: table
-            </label>
-        </section>
+    <h1 id="encabezado2"> Responda las siguientes preguntas:</h1>
 
-        <section id="p1">
+    <div class="container">
+        <form name="formulario">
+            <section>
+                <h3>1. ¿Cuál es la propiedad que se utiliza para definir el contenedor de una cuadrícula en CSS Grid?
+                </h3>
+                <label>
+                    <input type="radio" name="r1" value="a"> a. Display: flex
+                </label>
+                <label>
+                    <input type="radio" name="r1" value="b"> b. Display: inline-block
+                </label>
+                <label>
+                    <input type="radio" name="r1" value="c"> c. Display: grid
+                </label>
+                <label>
+                    <input type="radio" name="r1" value="d"> d. Display: table
+                </label>
+            </section>
+
             <h3>2. ¿Cuál es la propiedad que se utiliza para especificar la cantidad de columnas en una cuadrícula de
-                CSS
-                Grid?</h3>
-            <label>
-                <input type="radio" name="p1" value="a" onclick="respuesta(1, this)"> a. Grid-template-columns
-            </label>
-            <label>
-                <input type="radio" name="p1" value="b" onclick="respuesta(1, this)"> b. Grid-columns
-            </label>
-            <label>
-                <input type="radio" name="p1" value="c" onclick="respuesta(1, this)"> c. Column-count
-            </label>
-            <label>
-                <input type="radio" name="p1" value="d" onclick="respuesta(1, this)"> d. Columns
-            </label>
-        </section>
+                CSS Grid?</h3>
+            <section>
+                <label>
+                    <input type="radio" name="r2" value="a"> a. Grid-template-columns
+                </label>
+                <label>
+                    <input type="radio" name="r2" value="b"> b. Grid-columns
+                </label>
+                <label>
+                    <input type="radio" name="r2" value="c"> c. Column-count
+                </label>
+                <label>
+                    <input type="radio" name="r2" value="d"> d. Columns
+                </label>
+            </section>
 
-        <section id="p2">
             <h3>3. ¿Cuál es la propiedad que se utiliza para especificar la cantidad de filas en una cuadrícula de CSS
-                Grid?
-            </h3>
-            <label>
-                <input type="radio" name="p2" value="a" onclick="respuesta(2, this)"> a. Grid-template-rows
-            </label>
-            <label>
-                <input type="radio" name="p2" value="b" onclick="respuesta(2, this)"> b. Row-count
-            </label>
-            <label>
-                <input type="radio" name="p2" value="c" onclick="respuesta(2, this)"> c. Grid-rows
-            </label>
-            <label>
-                <input type="radio" name="p2" value="d" onclick="respuesta(2, this)"> d. Rows
-            </label>
-        </section>
-        <section id="p3">
-            <h3>4. ¿Cuál es la propiedad que se utiliza para definir el tamaño de una celda en una cuadrícula de CSS
-                Grid?
-            </h3>
-            <label>
-                <input type="radio" name="p3" value="a" onclick="respuesta(3, this)"> a. Grid-cell-size
-            </label>
-            <label>
-                <input type="radio" name="p3" value="b" onclick="respuesta(3, this)"> b. Cell-size
-            </label>
-            <label>
-                <input type="radio" name="p3" value="c" onclick="respuesta(3, this)"> c. Grid-template-cell
-            </label>
-            <label>
-                <input type="radio" name="p3" value="d" onclick="respuesta(3, this)"> d. Grid-template-areas
-            </label>
-
-        </section>
-        <section id="p4">
-            <h3>5. ¿Cuál es la propiedad que se utiliza para definir el espacio entre las celdas de una cuadrícula en
-                CSS
                 Grid?</h3>
-            <label>
-                <input type="radio" name="p4" value="a" onclick="respuesta(4, this)"> a. Grid-cell-gap
-            </label>
-            <label>
-                <input type="radio" name="p4" value="b" onclick="respuesta(4, this)"> b. Cell-gap
-            </label>
-            <label>
-                <input type="radio" name="p4" value="c" onclick="respuesta(4, this)"> c. Gap
-            </label>
-            <label>
-                <input type="radio" name="p4" value="d" onclick="respuesta(4, this)"> d. Grid-gap
-            </label>
-        </section>
+            <section>
+                <label>
+                    <input type="radio" name="r3" value="a"> a. Grid-template-rows
+                </label>
+                <label>
+                    <input type="radio" name="r3" value="b"> b. Row-count
+                </label>
+                <label>
+                    <input type="radio" name="r3" value="c"> c. Grid-rows
+                </label>
+                <label>
+                    <input type="radio" name="r3" value="d"> d. Rows
+                </label>
+            </section>
 
-        <button>FINALIZAR</button>
-        <h2>Cantidad acertada: <span id="resultado"></span> </h2>
+            <h3>4. ¿Cuál es la propiedad que se utiliza para definir el tamaño de una celda en una cuadrícula de CSS
+                Grid?</h3>
+            <section>
+                <label>
+                    <input type="radio" name="r4" value="a"> a. Grid-cell-size
+                </label>
+                <label>
+                    <input type="radio" name="r4" value="b"> b. Cell-size
+                </label>
+                <label>
+                    <input type="radio" name="r4" value="c"> c. Grid-template-cell
+                </label>
+                <label>
+                    <input type="radio" name="r4" value="d"> d. Grid-template-areas
+                </label>
+            </section>
 
+            <h3>5. ¿Cuál es la propiedad que se utiliza para definir el espacio entre las celdas de una cuadrícula en
+                CSS Grid?</h3>
+            <section>
+                <label>
+                    <input type="radio" name="r5" value="a"> a. Grid-cell-gap
+                </label>
+                <label>
+                    <input type="radio" name="r5" value="b"> b. Cell-gap
+                </label>
+                <label>
+                    <input type="radio" name="r5" value="c"> c. Gap
+                </label>
+                <label>
+                    <input type="radio" name="r5" value="d"> d. Grid-gap
+                </label>
+            </section>
+        </form>
+        <br><br>
+
+        <input id="boton_enviar" type="button" value="Enviar Respuestas" onclick="procesarRespuestas()">
+
+        <h2 id="resultado"> </h2>
     </div>
 
-    
+    <script src="script.js">  </script>
 
     <br><br>
     <footer class="piedepagina">
         Esta pagina fue desarrollada por Carlos Arias _ Fecha actualización: 26/04/2023
     </footer>
 
-    <script src="script.js">  </script>
 </body>
 
 </html>

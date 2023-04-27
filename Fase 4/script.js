@@ -1,19 +1,17 @@
-
 function procesarRespuestas(){
-    let total = 5;
+    let total = 5
     let puntos = 0;
-    // let opcion_elegida =[];
 
     let myForm =document.forms["formulario"];
     let respuestasCorrectas =["c", "a", "a", "b", "d",]
 
-    for (let i=0; i<= total; i++){
-        if (myForm["p"+i].value == null ||
-            myForm["p"+i].value == '') {
+    for (let i=1; i<= total; i++){
+        if (myForm["r" + i].value == null ||
+            myForm["r" + i].value == '') {
             alert('Favor responder todas las preguntas del cuestionario');
             return false;    
         } else {
-            if (myForm["r"+i].value === respuestasCorrectas[i -1])
+            if (myForm["r" + i].value === respuestasCorrectas[i -1])
                 puntos++;
         }
     }
@@ -21,10 +19,6 @@ function procesarRespuestas(){
     resultado.innerHTML='Obtuviste '+puntos+' puntos de ' + total + ' posibles ';
     return false;
 }
-
-
-
-
 
 
 
